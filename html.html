@@ -1,6 +1,46 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Class Selector</title>
+        <style>
+            #first {color:red;}
+            
+        </style>
+        <!--group selector-->
+        <style>h1,h2,p{
+                color:blueviolet
+        }</style> 
+        <!--pseudo selector-->
+        <!--hover spply rule when mouse is over element -->
+        <style>
+            .second:hover{
+                background-color:aquamarine
+
+            }
+             a:link {
+      color: blue;
+      text-decoration: none;
+    }
+    a:visited {
+      color: purple;
+    }
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+    a:active {
+      color: green;
+    }
+
+        </style>
+    </head>
        <body>
+        <div id="first">First Div</div>
+        <div class="second">Second div</div>
+        <div class="second">Third div</div>
+         <a href="https://www.google.com" target="_blank">Google</a><br>
+         <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a><br>
+          <a href="https://github.com/harshanand-git" target="_blank">My github</a>
         <h1>Harsh Anand</h1>
         <h2>welcome to my page!</h2>
         <p>i hope u like my page its a basic html page in which i will be practising html basics,here the link to my linkedin profile</p>
