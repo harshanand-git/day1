@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        header{
+            text-align: center;
+            padding: 20px;
+            background: gray;
+            color: white;
+        }
+        .sidebar{
+            width: 220px;
+            padding: 25px 15px;
+            background: #222;
+            color: #fff;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+        }
+        .sidebar h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            letter-spacing: 1px;
+        }
+        .sidebar nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin: 12px 0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+        .sidebar nav a:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <nav>
+            <a href="home.html">Home</a> <br>
+            <a href="starters.html">Starters</a> <br>
+            <a href="maincourse.html">Main Course</a> <br>
+            <a href="desserts.html">Desserts</a> <br>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    <div style="margin-left:220px;">
+        <div style="text-align: center;">
+            <header>
+            <h1>Harsh's Dhaba</h1>
+            </header>
+            <p>Welcome to Harsh's Dhaba, where we serve delicious food with a touch of love and tradition. Our menu features a variety of dishes that cater to all taste buds.</p>
+            <h2>Our Specials</h2>
+            <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+                <div style="background: #f8f8f8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); width: 250px; padding: 18px; text-align: center;">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80" alt="Margherita Pizza" style="width: 100%; border-radius: 6px;">
+                    <h3>Margherita Pizza</h3>
+                    <p>A classic delight with fresh tomatoes, mozzarella cheese, and basil leaves.</p>
+                </div>
+                <div style="background: #f8f8f8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); width: 250px; padding: 18px; text-align: center;">
+                    <img src="https://spicecravings.com/wp-content/uploads/2020/10/Paneer-Tikka-Featured-1.jpg" alt="Paneer Tikka" style="width: 100%; border-radius: 6px;">
+                    <h3>Paneer Tikka</h3>
+                    <p>Chunks of paneer marinated in spices and grilled to perfection.</p>
+                </div>
+                <div style="background: #f8f8f8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); width: 250px; padding: 18px; text-align: center;">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Chocolate Lava Cake" style="width: 100%; border-radius: 6px;">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>A rich chocolate cake with a gooey molten center, served warm with vanilla ice cream.</p>
+                </div>
+            </div>
+            <hr>
+            <button id="light-theme" style="background-color: white; color: black;">Light Theme</button>
+            <button id="dark-theme" style="background-color: black; color: white;">Dark Theme</button>
+            <hr>
+        </div>
+        <div style="text-align: right; padding-right: 40px;">
+            &copy; 2025 Harsh's Dhaba | All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
